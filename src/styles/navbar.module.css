@@ -1,0 +1,31 @@
+.navbar {
+  height: 55px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 5rem;
+}
+
+.navHeading {
+  margin: 0;
+  color: #0064ff;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+
+.userContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.username {
+  color: #6a6a6a;
+  font-size: 1.4rem;
+}
+
+.userAvatar {
+  height: 90%;
+}
