@@ -1,0 +1,38 @@
+.programContainer {
+  box-sizing: border-box;
+  background-color: #15294b;
+  box-sizing: border-box;
+  padding: 0px 4.7rem;
+}
+
+.para {
+  margin: 0;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.programHeading {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.program {
+  display: flex;
+  padding: 1rem 7px;
+}
+
+.program p {
+  font-size: 15px;
+  margin-right: 2rem;
+  padding: 2px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active {
+  margin: 0;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 500;
+}
