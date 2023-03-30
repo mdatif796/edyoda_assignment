@@ -1,4 +1,5 @@
 import DropdownContainer from "./DropdownContainer";
+import Menu from "./Menu";
 import Navbar from "./Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <DropdownContainer />
+      <Menu />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import styles from "../styles/programContainer.module.css";
 import { dropdown } from "../data/dropdown";
-import { useState } from "react";
 
 const ProgramContainer = ({ handleActiveCourse, activeCourse }) => {
   const handleClick = (e) => {

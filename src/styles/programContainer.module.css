@@ -1,4 +1,7 @@
 .programContainer {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   box-sizing: border-box;
   background-color: #15294b;
   box-sizing: border-box;
