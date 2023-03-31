@@ -2,7 +2,7 @@
   box-sizing: border-box;
   background-color: #15294b;
   width: 8%;
-  height: 84.2vh;
+  height: 84.3vh;
   display: flex;
   flex-direction: column;
 }
@@ -15,6 +15,10 @@
   padding: 13px 0;
   color: #ffffff;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu p {

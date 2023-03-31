@@ -1,0 +1,389 @@
+p {
+  margin: 0;
+}
+
+.homeContainer {
+  width: 92%;
+  box-sizing: border-box;
+  background-color: #f2f6ff;
+  padding: 3rem 0rem 0rem 5rem;
+}
+
+.heading {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.certificationCourse {
+  box-sizing: border-box;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 1px 1px 1px 2px #bfe1f4;
+  border-radius: 4px;
+  height: 25%;
+  width: 80%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.img {
+  height: 70%;
+  margin-right: 3%;
+}
+
+.firstDiv {
+  height: 100%;
+  box-sizing: border-box;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 13%;
+}
+
+.certificationPara {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0.6rem;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8ebf0;
+  border-radius: 4px;
+  font-weight: 500;
+  color: grey;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.certificationPara span {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.courseHeading {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.courseDuration {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: grey;
+  background-color: #cceeff;
+  padding: 3px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.courseDuration span {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.secondDiv {
+  height: 100%;
+  box-sizing: border-box;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-right: 9%;
+}
+
+.structureHeading {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.roundPara {
+  font-size: 15px;
+  color: grey;
+}
+
+.secondDiv span {
+  padding: 2px 9px;
+  box-sizing: border-box;
+  background-color: #dfe6f2;
+  border-radius: 8px;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 3%;
+}
+
+.examDetailsHeading {
+  margin: 0;
+  font-size: 1.1rem;
+  padding: 3px 2rem;
+  color: #45a8ff;
+  border: 1px solid #45a8ff;
+  border-radius: 19px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.moduleDetails {
+  width: 85%;
+  height: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courseDeclaration {
+  height: 100%;
+  width: 65%;
+  box-shadow: 1px 1px 1px 2px #bfe1f4;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.courseMaterial {
+  box-sizing: border-box;
+  height: 100%;
+  width: 60%;
+  border-right: 1px solid #bfe1f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.subjectContainer {
+  width: 80%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.subImg {
+  height: 80%;
+}
+
+.rightDiv {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rightDivHeading {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.instructorContainer {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: -4%;
+  margin-top: 3%;
+}
+
+.instructorAvatar {
+  height: 30px;
+}
+
+.instructorPara {
+  font-size: 14px;
+  font-weight: 500;
+  color: #45a8ff;
+}
+
+.courseTask {
+  display: flex;
+  width: 60%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 3%; */
+  position: relative;
+}
+
+.courseTask span {
+  font-size: 13px;
+  color: grey;
+  line-height: 1;
+}
+
+.courseTask p {
+  width: 60%;
+  height: 22%;
+  background-color: #abe1ff;
+  border-radius: 7px;
+}
+
+.taskCounter {
+  font-size: 10px;
+  font-weight: 500;
+  color: #abe1ff;
+  position: absolute;
+  top: -2px;
+  right: 53%;
+}
+
+.coursePlan {
+  box-sizing: border-box;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.planPara {
+  margin: 0;
+  font-size: 14px;
+  width: 85%;
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+
+.planTime {
+  font-size: 12px;
+  width: 85%;
+  color: grey;
+}
+
+.planHeading {
+  margin: 0;
+  width: 85%;
+  font-size: 17px;
+  color: #45a8ff;
+  font-weight: 500;
+  margin-top: 4%;
+  word-break: keep-all;
+}
+
+.feedbackPara {
+  font-size: 12px;
+  width: 85%;
+  color: grey;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  color: #a1dffa;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.liveSessionBtn {
+  background-color: #efefef;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-top: 3%;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 500;
+  margin-left: -38%;
+}
+
+.startTime {
+  font-size: 9px;
+  width: 80%;
+  color: grey;
+  margin-top: 2%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.progressContainer {
+  height: 100%;
+  width: 25%;
+  box-shadow: 1px 1px 1px 2px #bfe1f4;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.progressContainer p {
+  font-size: 14px;
+  color: grey;
+}
+
+.progressContainer span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.progressPara {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  width: 80%;
+}
+
+.gradeContainer {
+  box-sizing: border-box;
+  height: 27%;
+  width: 80%;
+  box-shadow: 1px 1px 1px 2px #bfe1f4;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: relative;
+}
+
+.progressHeading {
+  margin: 0;
+  font-size: 15px;
+  width: 80%;
+  color: #45a8ff;
+  cursor: pointer;
+}
+
+.spaceBar {
+  position: absolute;
+  width: 90%;
+  height: 8%;
+  background-color: #dfd1d1;
+  border-radius: 7px;
+  bottom: 0;
+}
+
+.moduleDetailsPara {
+  font-size: 14px;
+  font-weight: 500;
+  color: #45a8ff;
+  line-height: 1;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
