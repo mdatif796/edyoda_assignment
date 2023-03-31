@@ -3,6 +3,7 @@ import DropdownContainer from "./DropdownContainer";
 import Home from "./Home";
 import Instructor from "./Instructor";
 import Menu from "./Menu";
+import Message from "./Message";
 import Module from "./Module";
 import Navbar from "./Navbar";
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/module" element={<Module />} />
             <Route path="/instructor" element={<Instructor />} />
           </Routes>
+          <Message />
         </div>
       </Router>
     </div>
