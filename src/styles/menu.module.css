@@ -21,7 +21,25 @@ a {
   text-decoration: none;
 }
 
+.clickedMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 0;
+  color: #15294b;
+  cursor: pointer;
+  background-color: #dee4f0;
+}
+
 .menu p {
+  margin: 0;
+  font-size: 8px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.clickedMenu p {
   margin: 0;
   font-size: 8px;
   font-weight: 500;
